@@ -271,28 +271,35 @@ button {
 /* banner section start */
 
 .banner_section {
-    padding-top: 40px;
+    padding-top: 25%;
     padding-bottom: 70px;
     border-bottom: 80px solid #b51b1b;
+    padding-left: 0%;
 }
+.carousel-inner {
+    position: relative;
+    width: 60%;
+    overflow: hidden;
+  }
 .banner_main {
     width: 44%;
     float: left;
-    background: #f8f9faf2;
-    padding: 40px;
+    background: #5a67749d;
+    padding: 30px;
+    border-radius: 20px;
 }
 
 .banner_taital {
     width: 100%;
     float: left;
-    font-size: 48px;
-    color: #060707;
+    font-size: 40px;
+    color: #013030;
     font-weight: bold;
 }
 .banner_text {
     width: 100%;
     float: left;
-    font-size: 16px;
+    font-size: 14px;
     color: #000;
     margin: 0px;
 }
